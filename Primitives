@@ -1,0 +1,12 @@
+import java.util.Scanner;
+
+public class Primitives {
+    public static void main(String[] args) {
+//        int rollno = 49;
+//        char letter = 'r'
+        Scanner input = new Scanner(System.in);
+        System.out.print("please enter your rollno : ");
+        int rollno = input.nextInt();
+        System.out.println("your roll no. is " + rollno);
+    }
+}
